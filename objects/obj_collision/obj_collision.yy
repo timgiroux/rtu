@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_relic",
-    "path": "sprites/spr_relic/spr_relic.yy",
+    "name": "spr_collision",
+    "path": "sprites/spr_collision/spr_collision.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_relic",
+  "name": "obj_collision",
   "tags": [],
   "resourceType": "GMObject",
 }
