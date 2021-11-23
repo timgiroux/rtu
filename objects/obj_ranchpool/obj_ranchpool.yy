@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_tim",
-    "path": "sprites/spr_tim/spr_tim.yy",
+    "name": "spr_ranchpool",
+    "path": "sprites/spr_ranchpool/spr_ranchpool.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_tim",
-    "path": "sprites/spr_tim/spr_tim.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -23,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tim",
+  "name": "obj_ranchpool",
   "tags": [],
   "resourceType": "GMObject",
 }

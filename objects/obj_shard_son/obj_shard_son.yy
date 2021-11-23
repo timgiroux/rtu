@@ -1,14 +1,11 @@
 {
   "spriteId": {
-    "name": "spr_tim",
-    "path": "sprites/spr_tim/spr_tim.yy",
+    "name": "spr_shard_son",
+    "path": "sprites/spr_shard_son/spr_shard_son.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "spr_tim",
-    "path": "sprites/spr_tim/spr_tim.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -24,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_tim","path":"objects/obj_tim/obj_tim.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tim",
+  "name": "obj_shard_son",
   "tags": [],
   "resourceType": "GMObject",
 }

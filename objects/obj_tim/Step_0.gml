@@ -3,20 +3,29 @@
 var x_direction = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump = keyboard_check_pressed(vk_space);
 var on_ground = place_meeting(x, y + 1, obj_collision);
+var on_ranch = place_meeting(x, y + 1, obj_ranchpool);
 var jump_height = -15;
 
-if (x_direction != 0) image_xscale = x_direction;
+if (x_direction != 0) image_xscale = x_direction * -1;
 
 x_spd = x_direction * spd;
 y_spd++;
 
 if (on_ground) {
-	if (x_direction != 0) { sprite_index = spr_tim_run; } 
-	else { sprite_index = spr_tim; }
+	if (x_direction != 0) {
+		sprite_index = spr_tim_run;
+		} 
+	else {
+		if(on_ranch) {
+			sprite_index = spr_tim_pain;
+		    } else {
+			sprite_index = spr_tim;
+			}
+	    }
 
 	if (jump) {
 		y_spd = jump_height;
-	}
+	    }
 } else {
 	sprite_index = spr_tim_jump;
 }
