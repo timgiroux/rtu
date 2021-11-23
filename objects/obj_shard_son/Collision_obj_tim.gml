@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-x = 9999;
+layer_sequence_create("Instances", x, y, seq_son_relic_get);
+instance_destroy(id);
