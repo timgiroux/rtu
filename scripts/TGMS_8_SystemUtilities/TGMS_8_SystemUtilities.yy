@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "TweenGMS 2 Beta",
+    "path": "folders/TweenGMS 2 Beta.yy",
   },
   "resourceVersion": "1.0",
-  "name": "scr_relic_intro",
+  "name": "TGMS_8_SystemUtilities",
   "tags": [],
   "resourceType": "GMScript",
 }
