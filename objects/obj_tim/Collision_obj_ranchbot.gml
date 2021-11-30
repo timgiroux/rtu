@@ -8,5 +8,5 @@ if(!invincible) {
 	}
 	
 	sprite_index = spr_tim_pain;
-	alarm[2] = 45;
+	alarm[2] = 60;
 }
