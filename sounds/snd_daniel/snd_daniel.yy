@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_daniel.mp3",
-  "duration": 10.56,
+  "duration": 10.152,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

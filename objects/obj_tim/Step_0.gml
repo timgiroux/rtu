@@ -14,6 +14,7 @@ if(can_move) {
 	y_spd += grav;
 
 	if (on_ground) {
+		jumps = jumpsmax;
 	
 		if (x_direction != 0) {
 			sprite_index = spr_tim_run;
@@ -26,13 +27,16 @@ if(can_move) {
 			}
 	    }
 
-		if (jump_press) {
-			y_spd = jump_height;
-		}
-
-
 	} else {
 		sprite_index = spr_tim_jump;
+	}
+	
+	if (jump_press && jumps > 0) {
+		if(jumpsmax == 2 && jumps == 1) {
+			instance_create_layer(x, y - 1, "Instances", obj_ranch_squirt);
+		}
+		jumps--;
+		y_spd = jump_height;
 	}
 
     // variable jump height
