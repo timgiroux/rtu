@@ -1,2 +1,2 @@
 /// @description double jump get
-jumpsmax = 2;
+global.jumpsmax = 2;

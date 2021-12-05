@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "shards",
+    "path": "folders/Sprites/shards.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_shard_son",

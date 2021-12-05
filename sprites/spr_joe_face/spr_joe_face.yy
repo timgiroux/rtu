@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "joe_jar",
+    "path": "folders/Sprites/joe_jar.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_joe_face",

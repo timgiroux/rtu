@@ -1,7 +1,7 @@
 /// @description draw heart GUI
 UI_MARGIN = 56;
 UI_HEART_SEPARATION = 56;
-TIM_MAX_HEALTH = 6;
+TIM_MAX_HEALTH = 3;
 tim_health = global.tim_health;
 tim_health_fraction = frac(tim_health);
 tim_health -= tim_health_fraction;

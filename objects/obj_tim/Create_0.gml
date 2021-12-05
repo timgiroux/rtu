@@ -1,11 +1,7 @@
 /// @description create tim
+show_debug_message("creating tim");
 
-global.tim_health = 6;
-global.shard_self_get = false;
-global.shard_son_get = false;
-global.shard_wife_get = false;
 global.sequence_playing = false;
-
 
 // constant timer countdowns
 RANCHENING_COUNTDOWN = 750;
@@ -16,7 +12,6 @@ x_spd = 0;
 y_spd = 0;
 grav = 0.5;
 jumps = 0;
-jumpsmax = 1;
 
 // cannot move while memory sequence is playing
 can_move = true;
@@ -26,4 +21,8 @@ invincible = false;
 
 // sound queue for shard sequences
 sound_queue = noone;
+
+if(global.has_joe) {
+	instance_create_layer(id.x, id.y, "Instances", obj_joe_jar);
+}
 
