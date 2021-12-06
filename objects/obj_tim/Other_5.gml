@@ -5,4 +5,4 @@ if(!instance_exists(obj_spawn_info)) {
 }
 
 
-obj_tim_state.targetSpawn = targetSpawn;
+obj_spawn_info.targetSpawn = targetSpawn;
