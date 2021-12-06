@@ -1,1 +1,1 @@
-room_goto(rm_prison_1);
+room_goto(rm_intro);
