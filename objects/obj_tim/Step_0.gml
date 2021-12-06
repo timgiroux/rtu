@@ -3,7 +3,6 @@ var x_direction = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump_press = keyboard_check_pressed(vk_space);
 var jump_held = keyboard_check(vk_space);
 var on_ground = place_meeting(x, y + 1, obj_collision);
-var on_ranch = place_meeting(x, y + 1, obj_ranchpool);
 var jump_height = -10;
 
 
@@ -14,18 +13,17 @@ if(can_move) {
 	x_spd = x_direction * spd;
 	y_spd += grav;
 
-	if (on_ground) {
+	if (invincible) {
+		sprite_index = spr_tim_pain;
+	}
+	else if (on_ground) {
 		jumps = global.jumpsmax;
 	
 		if (x_direction != 0) {
 			sprite_index = spr_tim_run;
 		} 
 		else {
-			if(on_ranch) {
-				sprite_index = spr_tim_pain;
-			} else {
-				sprite_index = spr_tim;
-			}
+			sprite_index = spr_tim;
 	    }
 
 	} else {
@@ -38,6 +36,7 @@ if(can_move) {
 		}
 		jumps--;
 		y_spd = jump_height;
+		audio_play_sound(snd_tim_jump,0,false);
 	}
 
     // variable jump height

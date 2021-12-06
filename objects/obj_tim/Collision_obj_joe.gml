@@ -3,6 +3,8 @@ y_spd = 0;
 
 can_move = false;
 
+jarring_joe = true;
+
 // alarm to let tim move
 alarm[0] = 750;
 

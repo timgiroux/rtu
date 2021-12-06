@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.21,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_sad.wav",
-  "duration": 76.8,
+  "soundFile": "snd_sad.mp3",
+  "duration": 24.0326252,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
