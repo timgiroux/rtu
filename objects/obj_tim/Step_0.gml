@@ -6,6 +6,7 @@ var on_ground = place_meeting(x, y + 1, obj_collision);
 var on_ranch = place_meeting(x, y + 1, obj_ranchpool);
 var jump_height = -10;
 
+
 if(can_move) {
 
 	if (x_direction != 0) image_xscale = x_direction * -1;
@@ -14,7 +15,7 @@ if(can_move) {
 	y_spd += grav;
 
 	if (on_ground) {
-		jumps = jumpsmax;
+		jumps = global.jumpsmax;
 	
 		if (x_direction != 0) {
 			sprite_index = spr_tim_run;
@@ -32,7 +33,7 @@ if(can_move) {
 	}
 	
 	if (jump_press && jumps > 0) {
-		if(jumpsmax == 2 && jumps == 1) {
+		if(global.jumpsmax == 2 && jumps == 1) {
 			instance_create_layer(x, y - 1, "Instances", obj_ranch_squirt);
 		}
 		jumps--;

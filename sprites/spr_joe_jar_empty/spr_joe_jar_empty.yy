@@ -25,9 +25,9 @@
   "gridY": 4,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"895036eb-035c-496a-83d9-c2ecdf856632","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"895036eb-035c-496a-83d9-c2ecdf856632","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"LayerId":{"name":"a714ea8a-c654-47d8-a13e-c31e57707cd7","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"895036eb-035c-496a-83d9-c2ecdf856632","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"LayerId":{"name":"bc13aa40-6dd6-4fe0-a6e7-b146e8baacd7","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"895036eb-035c-496a-83d9-c2ecdf856632","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"LayerId":{"name":"c40600cf-bdeb-4152-a9e8-24716a569c36","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"895036eb-035c-496a-83d9-c2ecdf856632","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"LayerId":{"name":"bc13aa40-6dd6-4fe0-a6e7-b146e8baacd7","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"895036eb-035c-496a-83d9-c2ecdf856632","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"LayerId":{"name":"a714ea8a-c654-47d8-a13e-c31e57707cd7","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_joe_jar_empty","path":"sprites/spr_joe_jar_empty/spr_joe_jar_empty.yy",},"resourceVersion":"1.0","name":"895036eb-035c-496a-83d9-c2ecdf856632","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "joe_jar",
+    "path": "folders/Sprites/joe_jar.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_joe_jar_empty",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "tim",
+    "path": "folders/Sprites/tim.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tim_pain",
