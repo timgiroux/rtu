@@ -2,7 +2,7 @@
 
 if(instance_exists(obj_spawn_info)) {
 
-	targetSpawn = obj_tim_state.targetSpawn;
+	targetSpawn = obj_spawn_info.targetSpawn;
 	
 	instance_destroy(obj_spawn_info);
 
