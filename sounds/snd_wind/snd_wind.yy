@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.22,
+  "volume": 0.15,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_final_boss.mp3",
-  "duration": 44.93061,
+  "soundFile": "snd_wind.mp3",
+  "duration": 15.864,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_final_boss",
+  "name": "snd_wind",
   "tags": [],
   "resourceType": "GMSound",
 }

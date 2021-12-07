@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[0] = 6*60;
+image_xscale = .9;
+image_yscale = .9;
+audio_play_sound(snd_tim_itemget,0,0);
