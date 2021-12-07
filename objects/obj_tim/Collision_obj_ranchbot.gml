@@ -9,8 +9,7 @@ if(!invincible) {
 	}
 	
 	if(global.tim_health == 0) {
-		show_debug_message("Oh dear, you\'re dead!");
-		room_goto(rm_lose);
+		TransitionStart(rm_lose, seq_fade_out, seq_fade_in);
 	}
 	
 	sprite_index = spr_tim_pain;
