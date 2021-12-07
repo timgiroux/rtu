@@ -2,7 +2,7 @@ audio_stop_all();
 audio_play_sound(snd_ambiance, false, true);
 
 if(global.jumpsmax != 2) {
-	instance_create_layer(960, 992, "Instances", obj_dbl_jump_pwrup);
+	instance_create_layer(960, 986, "Instances", obj_dbl_jump_pwrup);
 }
 
 if(!global.has_joe) {

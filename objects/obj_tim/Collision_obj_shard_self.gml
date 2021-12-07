@@ -1,5 +1,9 @@
 if(global.shard_son_get && global.shard_wife_get) {
 	global.shard_self_get = true;
+	
+	if (global.tim_health <= 3) {
+		global.tim_health++;
+	}
 
 	// freeze tim
 	x_spd = 0;
@@ -14,7 +18,7 @@ if(global.shard_son_get && global.shard_wife_get) {
 
 	// create self sequence
 	global.sequence_playing = true;
-	layer_sequence_create("Instances", id.x - 320, id.y - 256, seq_self);
+	global.current_sequence = layer_sequence_create("Instances", id.x - 320, id.y - 256, seq_self);
 	alarm[0] = 50+60*30; // alarm frees tims movement when it goes off
 
 

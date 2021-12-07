@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"a5d433a8-8d55-40a9-bbeb-082fdb4c80e9","path":"sprites/shard_self/shard_self.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5d433a8-8d55-40a9-bbeb-082fdb4c80e9","path":"sprites/shard_self/shard_self.yy",},"LayerId":{"name":"150273f4-bc19-4050-8219-57dbd2cb4eb9","path":"sprites/shard_self/shard_self.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"shard_self","path":"sprites/shard_self/shard_self.yy",},"resourceVersion":"1.0","name":"a5d433a8-8d55-40a9-bbeb-082fdb4c80e9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4d51c310-11bd-4b13-a5a1-4653463761d8","path":"sprites/spr_shard_wife_lock/spr_shard_wife_lock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4d51c310-11bd-4b13-a5a1-4653463761d8","path":"sprites/spr_shard_wife_lock/spr_shard_wife_lock.yy",},"LayerId":{"name":"068831b9-29a9-465c-a8a7-cba0df7f4466","path":"sprites/spr_shard_wife_lock/spr_shard_wife_lock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_shard_wife_lock","path":"sprites/spr_shard_wife_lock/spr_shard_wife_lock.yy",},"resourceVersion":"1.0","name":"4d51c310-11bd-4b13-a5a1-4653463761d8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"shard_self","path":"sprites/shard_self/shard_self.yy",},
+    "spriteId": {"name":"spr_shard_wife_lock","path":"sprites/spr_shard_wife_lock/spr_shard_wife_lock.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7741134b-f4ae-4271-bbd0-0f9ae513a901","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a5d433a8-8d55-40a9-bbeb-082fdb4c80e9","path":"sprites/shard_self/shard_self.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b4a6feb5-d3f4-4fdf-aab5-28eea4c3b6de","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4d51c310-11bd-4b13-a5a1-4653463761d8","path":"sprites/spr_shard_wife_lock/spr_shard_wife_lock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"shard_self","path":"sprites/shard_self/shard_self.yy",},
+    "parent": {"name":"spr_shard_wife_lock","path":"sprites/spr_shard_wife_lock/spr_shard_wife_lock.yy",},
     "resourceVersion": "1.3",
-    "name": "shard_self",
+    "name": "spr_shard_wife_lock",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"150273f4-bc19-4050-8219-57dbd2cb4eb9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"068831b9-29a9-465c-a8a7-cba0df7f4466","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/shards.yy",
   },
   "resourceVersion": "1.0",
-  "name": "shard_self",
+  "name": "spr_shard_wife_lock",
   "tags": [],
   "resourceType": "GMSprite",
 }

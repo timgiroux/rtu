@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_ranchbot_hitbox",
+    "path": "sprites/spr_ranchbot_hitbox/spr_ranchbot_hitbox.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

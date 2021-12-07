@@ -14,7 +14,10 @@ function TransitionStart(_roomTarget, _typeOut, _typeIn)
 		layer_reset_target_room();
 		return true;
 	}
-	else return false
+	else {
+		show_debug_message("FAILED");
+		return false;
+	}
 }
 
 //Places the sequences in the room

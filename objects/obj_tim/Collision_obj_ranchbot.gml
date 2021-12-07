@@ -4,8 +4,8 @@ if(!invincible) {
 	global.tim_health -= .5;
 	
 	//fixes glitch losing jumps on ouch
-	if(!place_meeting(x, y + 1, obj_collision)) {
-		jumps++;
+	if(sprite_index == spr_tim_jump) {
+		jumps = global.jumpsmax;
 	}
 	
 	if(global.tim_health == 0) {
