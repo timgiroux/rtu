@@ -1,5 +1,4 @@
 /// @description create tim
-show_debug_message("creating tim");
 
 global.sequence_playing = false;
 
@@ -12,6 +11,7 @@ x_spd = 0;
 y_spd = 0;
 grav = 0.5;
 jumps = 0;
+targetSpawn = noone;
 
 // special boolean to prevent snd_ambiance reset after seq_joe_jar
 jarring_joe = false;

@@ -14,8 +14,9 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_title_start","path":"objects/obj_title_start/obj_title_start.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":3.39999962,"scaleY":3.39999962,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":352.000031,"resourceVersion":"1.0","name":"inst_46C320B6","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_title_start","path":"objects/obj_title_start/obj_title_start.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.10000014,"scaleY":2.10000014,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":352.0,"y":287.999969,"resourceVersion":"1.0","name":"inst_46C320B6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tim_state","path":"objects/obj_tim_state/obj_tim_state.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-160.0,"y":64.0,"resourceVersion":"1.0","name":"inst_6549C495","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_title_quit","path":"objects/obj_title_quit/obj_title_quit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.1,"scaleY":2.1,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":416.0,"resourceVersion":"1.0","name":"inst_33241BD3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_big_tim","path":"sprites/spr_big_tim/spr_big_tim.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":0.29733333,"scaleY":0.29733333,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":249.0,"y":543.999939,"resourceVersion":"1.0","name":"graphic_371A77BE","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -28,6 +29,7 @@
   "instanceCreationOrder": [
     {"name":"inst_46C320B6","path":"rooms/rm_title/rm_title.yy",},
     {"name":"inst_6549C495","path":"rooms/rm_title/rm_title.yy",},
+    {"name":"inst_33241BD3","path":"rooms/rm_title/rm_title.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
