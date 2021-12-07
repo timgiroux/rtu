@@ -15,7 +15,6 @@ function TransitionStart(_roomTarget, _typeOut, _typeIn)
 		return true;
 	}
 	else {
-		show_debug_message("FAILED");
 		return false;
 	}
 }

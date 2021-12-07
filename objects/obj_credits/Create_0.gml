@@ -9,7 +9,7 @@ Voices
 Evangeline - Elin Waaker
 Drumstick Daniel - Daniel Drake
 ---
-SCORE: " + string(score);
+SCORE: " + string(score) + "ms to complete";
 
 x = room_width * .6;
 y = room_height + 50;
