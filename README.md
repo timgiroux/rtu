@@ -10,6 +10,10 @@
 
 AWSD to move, spacebar to jump. You can skip the text introduction at the beginning by pressing the spacebar.
 
+## Known Bugs or Issues
+
+n/a
+
 ## Credits
 
 * Joe: Joe-In-A-Jar logic, sequences, and art, double jump logic & art, tilemap setup, son&wife sequences, room persistence, Tim state machine, transitions, door "teleport" logic, level design, other logic/art
